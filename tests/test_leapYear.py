@@ -1,7 +1,6 @@
 # test_leapYear.py
 
-import pytest
-from leapYear import isLeapYear
+from leapyear.leapYear import isLeapYear
 
 
 def test_leap_year_divisible_by_4_not_divisable_by_100():
