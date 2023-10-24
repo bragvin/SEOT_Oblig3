@@ -4,7 +4,7 @@ import pytest
 from leapYear import isLeapYear
 
 
-def test_leap_year_divisible_by_4_not_dividable_by_100():
+def test_leap_year_divisible_by_4_not_divisable_by_100():
     assert not isLeapYear(2003) == True
     assert isLeapYear(2011) == False
     assert isLeapYear(2012) == True
